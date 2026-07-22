@@ -41,36 +41,6 @@ const projects = [
     tags: ["JavaScript", "DCF", "Dashboard"],
     tone: "blue",
   },
-  {
-    title: "정보처리기사 스터디메이트",
-    kicker: "Featured · EdTech",
-    description:
-      "문제은행과 학습 데이터를 활용해 시험 준비 흐름을 한 화면에서 관리하는 학습 플랫폼입니다.",
-    href: "https://purbluerace.github.io/IN/",
-    preview: "https://purbluerace.github.io/IN/",
-    tags: ["Vertex AI", "Data Pipeline", "PWA"],
-    tone: "cyan",
-  },
-  {
-    title: "정보처리산업기사 실기 문제앱",
-    kicker: "GitHub Pages · PWA",
-    description:
-      "오프라인에서도 사용할 수 있도록 서비스 워커와 설치형 PWA를 적용한 실기 문제 학습 앱입니다.",
-    href: "https://purbluerace.github.io/ocr/",
-    preview: "https://purbluerace.github.io/ocr/",
-    tags: ["PWA", "Offline", "JavaScript"],
-    tone: "orange",
-  },
-  {
-    title: "KongDan",
-    kicker: "GitHub Pages · Learning",
-    description:
-      "TTS와 음성 인식, 오답 복습, 진도 잠금 기능을 담은 20일 패턴 영어 학습 서비스입니다.",
-    href: "https://purbluerace.github.io/Kongdan/",
-    preview: "https://purbluerace.github.io/Kongdan/",
-    tags: ["Speech API", "TTS", "Learning UX"],
-    tone: "pink",
-  },
 ];
 
 const experience = [
