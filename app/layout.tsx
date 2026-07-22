@@ -6,7 +6,7 @@ const siteUrl = "https://purbluerace.github.io/github-pages-dashboard";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "YU HWAPYEONG | Accounting × Technology",
-  description: "회계·세무 실무와 데이터 자동화를 연결하는 유화평의 프로젝트 포트폴리오",
+  description: "회계·세무 실무와 데이터 자동화 프로젝트를 정리한 포트폴리오입니다.",
   icons: { icon: "/github-pages-dashboard/favicon.svg" },
   openGraph: {
     title: "YU HWAPYEONG | Accounting × Technology",

@@ -5,7 +5,7 @@ const BASE_PATH = "/github-pages-dashboard";
 export const metadata: Metadata = {
   title: "YU HWAPYEONG | Accounting × Technology",
   description:
-    "회계·세무 실무와 데이터 자동화를 연결하는 유화평의 프로젝트 포트폴리오",
+    "회계·세무 실무와 데이터 자동화 프로젝트를 정리한 포트폴리오입니다.",
 };
 
 const skills = [
@@ -147,8 +147,7 @@ export default function Home() {
           </h1>
           <p className="role">Accounting &amp; Tax × Data Automation</p>
           <p className="intro">
-            회계·세무의 탄탄한 기준 위에 Python, SQL, AI를 연결합니다.
-            반복 업무는 더 단순하게, 재무 의사결정은 더 정확하게 만드는 도구를 설계합니다.
+            회계·세무 업무를 담당하며 Python, SQL, AI를 활용한 자동화 도구를 만들고 있습니다.
           </p>
           <div className="hero-actions">
             <a className="primary-button" href="#projects">프로젝트 보기 <span>→</span></a>
@@ -174,7 +173,7 @@ export default function Home() {
       <section className="skills shell" id="about">
         <div className="section-heading">
           <span>TECH &amp; DOMAIN STACK</span>
-          <p>기술은 목적이 아니라, 더 나은 판단을 만드는 도구입니다.</p>
+          <p>회계 업무와 데이터 자동화에 사용하는 기술입니다.</p>
         </div>
         <div className="skill-list">
           {skills.map(([icon, label]) => (
@@ -187,7 +186,7 @@ export default function Home() {
         <div className="section-heading row-heading">
           <div>
             <span>PROJECT DASHBOARD</span>
-            <p>공개된 모든 서비스를 한곳에서 확인하세요.</p>
+            <p>직접 만든 프로젝트를 모았습니다.</p>
           </div>
           <a href="https://github.com/PurblueRace?tab=repositories" target="_blank" rel="noreferrer">
             GitHub 저장소 전체 보기 →
@@ -232,7 +231,7 @@ export default function Home() {
         <div className="experience-panel">
           <div className="section-heading">
             <span>EXPERIENCE</span>
-            <p>재무회계 현장의 문제를 데이터와 시스템으로 해결합니다.</p>
+            <p>재무회계 실무와 업무 개선 경험입니다.</p>
           </div>
           <div className="timeline">
             {experience.map((item) => (
@@ -249,11 +248,8 @@ export default function Home() {
 
         <aside className="connect-card">
           <span className="section-label">LET&apos;S CONNECT</span>
-          <h2>회계의 기준과 기술의 가능성을 함께 봅니다.</h2>
-          <p>
-            재무 데이터 분석, 업무 자동화, 회계·세무 시스템 개선에 관한
-            기회와 협업 제안을 기다립니다.
-          </p>
+          <h2>연락처</h2>
+          <p>업무와 프로젝트에 관해 편하게 연락해 주세요.</p>
           <div className="contact-links">
             <a href="mailto:dbghkvud223@naver.com"><span>✉</span> dbghkvud223@naver.com</a>
             <a href="https://github.com/PurblueRace" target="_blank" rel="noreferrer"><span>●</span> github.com/PurblueRace</a>
@@ -266,7 +262,7 @@ export default function Home() {
 
       <footer className="shell">
         <span>© 2026 YU HWAPYEONG</span>
-        <span>Accounting × Technology · Built with purpose.</span>
+        <span>Accounting · Automation · Projects</span>
       </footer>
     </main>
   );
