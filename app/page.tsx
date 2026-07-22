@@ -62,16 +62,6 @@ const projects = [
     tone: "orange",
   },
   {
-    title: "정보통신설비 유지관리 보고서",
-    kicker: "GitHub Pages · Work Tool",
-    description:
-      "현장 유지관리 내역을 구조화하고 보고서를 작성·미리보기 할 수 있는 실무형 업무 도구입니다.",
-    href: "https://purbluerace.github.io/-/",
-    preview: "https://purbluerace.github.io/-/",
-    tags: ["Workflow", "Report", "Automation"],
-    tone: "green",
-  },
-  {
     title: "KongDan",
     kicker: "GitHub Pages · Learning",
     description:
@@ -80,16 +70,6 @@ const projects = [
     preview: "https://purbluerace.github.io/Kongdan/",
     tags: ["Speech API", "TTS", "Learning UX"],
     tone: "pink",
-  },
-  {
-    title: "Tony’s Cleaning",
-    kicker: "GitHub Pages · Business",
-    description:
-      "서비스 소개와 문의 전환에 집중해 제작한 반응형 소규모 비즈니스 웹사이트입니다.",
-    href: "https://purbluerace.github.io/tonys-cleaning/",
-    preview: "https://purbluerace.github.io/tonys-cleaning/",
-    tags: ["Responsive", "Business", "Web"],
-    tone: "amber",
   },
 ];
 
