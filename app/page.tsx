@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 
+const BASE_PATH = "/github-pages-dashboard";
+
 export const metadata: Metadata = {
   title: "YU HWAPYEONG | Accounting × Technology",
   description:
@@ -25,7 +27,7 @@ const projects = [
       "자연어 질문을 SQL로 변환해 회계 데이터를 표, 요약 보고서, 차트로 분석하는 AI 회계 감사 도구입니다.",
     href: "https://talktodata-app-sglytunsuydvcxeltxck6z.streamlit.app/",
     preview: "https://talktodata-app-sglytunsuydvcxeltxck6z.streamlit.app/",
-    image: "/talktodata-preview.png",
+    image: `${BASE_PATH}/talktodata-preview.png`,
     tags: ["Python", "SQL", "Streamlit", "AI"],
     tone: "violet",
   },
@@ -132,7 +134,7 @@ export default function Home() {
           <a href="#projects">Projects</a>
           <a href="#experience">Experience</a>
         </div>
-        <a className="resume-link" href="/resume_Yu_Hwapyeong_English.pdf" download>
+        <a className="resume-link" href={`${BASE_PATH}/resume_Yu_Hwapyeong_English.pdf`} download>
           Resume <span aria-hidden="true">↓</span>
         </a>
       </nav>
@@ -163,7 +165,7 @@ export default function Home() {
           <div className="orbit orbit-one" />
           <div className="orbit orbit-two" />
           <div className="portrait-glow" />
-          <img src="/profile.jpg" alt="유화평 프로필" />
+          <img src={`${BASE_PATH}/profile.jpg`} alt="유화평 프로필" />
           <span className="status-dot" />
           <div className="floating-code">AI + Accounting</div>
         </div>

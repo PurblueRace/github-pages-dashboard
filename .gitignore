@@ -44,4 +44,5 @@ next-env.d.ts
 # local visual verification
 /.sites-*.log
 /.vinext-*.log
+/.gh-auth.*.log
 /final-preview.png

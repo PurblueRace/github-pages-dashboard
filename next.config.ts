@@ -1,7 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: "export",
+  basePath: "/github-pages-dashboard",
+  assetPrefix: "/github-pages-dashboard/",
+  trailingSlash: true,
+  images: { unoptimized: true },
 };
 
 export default nextConfig;
